@@ -1,0 +1,13 @@
+# Nhập tên người từ bàn phím
+full_name = input('Nhập tên đầy đủ: ')
+
+# Tách phần họ và tên
+name_parts = full_name.split()
+
+# Giả sử họ là phần đầu tiên và tên riêng là phần cuối cùng
+ho = name_parts[0]
+ten = name_parts[-1]
+
+# In kết quả
+print("Họ:", ho)
+print("Tên:", ten)
