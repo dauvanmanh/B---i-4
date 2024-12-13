@@ -1,8 +1,5 @@
-# Nhập một chuỗi từ bàn phím
 chuoi = input('Nhập chuỗi: ')
 
-# Loại bỏ các chữ số khỏi chuỗi
 chuoi_khong_so = ''.join([ch for ch in chuoi if not ch.isdigit()])
 
-# In lại nội dung chuỗi mới
 print(chuoi_khong_so)
