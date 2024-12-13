@@ -1,9 +1,7 @@
-# Nhập chuỗi các số nhị phân từ bàn phím
+
 binary_string = input("Nhập chuỗi các số nhị phân, ngăn cách bởi dấu phẩy: ")
 
-# Tách thành các số nhị phân
 binary_numbers = binary_string.split(',')
 
-# In ra những giá trị được nhập
 for binary in binary_numbers:
     print(binary)
