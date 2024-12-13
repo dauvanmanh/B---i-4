@@ -1,10 +1,9 @@
-# Nhập số n từ bàn phím
+
 n = int(input("Nhập số n: "))
 
 def sum_of_divisors(x):
     return sum(i for i in range(1, x) if x % i == 0)
 
-# In các số nguyên dương nhỏ hơn n có tổng các ước số lớn hơn chính nó
 for num in range(1, n):
     if sum_of_divisors(num) > num:
         print(num)
